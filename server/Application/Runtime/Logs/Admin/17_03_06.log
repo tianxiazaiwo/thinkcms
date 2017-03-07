@@ -1,0 +1,380 @@
+[ 2017-03-06T15:00:32+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected 'Admin' (T_STRING)
+
+[ 2017-03-06T15:00:55+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T15:01:12+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T15:01:33+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T15:01:52+08:00 ] 127.0.0.1 /server/index.php/admin/public/login?username=thinkadmin&password=thinkadmin123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: remeber_me D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\PublicController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488783712',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: remeberMs D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined index: data D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 106 行.
+
+[ 2017-03-06T15:02:08+08:00 ] 127.0.0.1 /server/index.php/admin/public/login?username=thinkadmin&password=thinkadmin12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: remeber_me D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\PublicController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-06T15:02:19+08:00 ] 127.0.0.1 /server/index.php/admin/public/login?username=thinkadmin&password=thinkadmin123456&remeber_me=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488783739',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: remeberMs D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\PublicController.class.php 第 31 行.
+NOTIC: [8] Undefined index: data D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 106 行.
+
+[ 2017-03-06T15:02:52+08:00 ] 127.0.0.1 /server/index.php/admin/public/login?username=thinkadmin&password=thinkadmin123456&remeber_me=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488783772',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] base64_encode() expects parameter 1 to be string, array given D:\App\Myweb\project\Thinkcms\server\Application\Common\Common\function_common.php 第 19 行.
+NOTIC: [8] Undefined index: data D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 106 行.
+
+[ 2017-03-06T15:03:23+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 2 for safe_cookie(), called in D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\PublicController.class.php on line 39 and defined D:\App\Myweb\project\Thinkcms\server\Application\Common\Common\function_common.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-06T15:04:49+08:00 ] 127.0.0.1 /server/index.php/admin/public/login?username=thinkadmin&password=thinkadmin123456&remeber_me=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488783889',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: data D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 106 行.
+
+[ 2017-03-06T15:05:00+08:00 ] 127.0.0.1 /server/index.php/admin/public/debug
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T15:08:38+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784118',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T15:08:51+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784131',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-06T15:09:07+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784147',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+ERR: 1146:Table 'think_cms.auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `auth_group_access`
+ERR: 1146:Table 'think_cms.auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `auth_group_access`
+
+[ 2017-03-06T15:11:26+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784286',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:16:08+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784568',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:16:10+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784570',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:17:48+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784668',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:17:50+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784670',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:18:06+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784686',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 48 行.
+
+[ 2017-03-06T15:18:25+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784705',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 49 行.
+
+[ 2017-03-06T15:18:52+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784732',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: resule D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 49 行.
+
+[ 2017-03-06T15:19:01+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784741',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-06T15:19:11+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfos
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784751',`status`='1' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2017-03-06T15:19:16+08:00 ] 127.0.0.1 /server/index.php/admin/member/getinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: member D:\App\Myweb\project\Thinkcms\server\Application\Admin\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `ad_member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad_member` WHERE ( username = "thinkadmin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: login_count D:\App\Myweb\project\Thinkcms\server\Application\Admin\Model\MemberModel.class.php 第 38 行.
+SQL: UPDATE `ad_member` SET `username`='thinkadmin',`password`='6d3738c2fe4c66a86ef49ee8f01b41c2',`nickname`='thinkadmin',`sex`='0',`birthday`='0',`qq`='',`email`=NULL,`score`='140',`login`='207',`reg_ip`='0',`reg_time`='1463534665',`last_login_ip`='2130706433',`last_login_time`='1488784756',`status`='1' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM ad_auth_group_access a INNER JOIN ad_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ad_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `ad_auth_rule` WHERE `id` IN ('1') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
